@@ -9,9 +9,10 @@ export function Headline(props) {
     <div>
       <div className={styles.description}>
         <h1>{props.title}</h1>
+
         <p>
           Get started by editing&nbsp;
-          <code className={styles.code}>pages/index.js</code>
+          {props.children}
         </p>
         <div>
           <a
